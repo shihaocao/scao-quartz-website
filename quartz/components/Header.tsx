@@ -39,13 +39,12 @@ Header.css = `
 }
 
 .spacer {
-  flex: 1; /* Takes equal space on left and right */
+  flex-grow: 1; /* Spacers expand to fill available space */
 }
 
 .customheaderdiv {
-  flex: 2; /* Takes twice as much space, so it's centered */
-  max-width: 600px; /* Prevents it from getting too wide */
-  text-align: left; /* Ensures content is left-aligned */
+  width: 300px; /* Fixed width */
+  text-align: left; /* Ensures content remains left-aligned */
 }
 
 
