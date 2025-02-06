@@ -43,7 +43,7 @@ Header.css = `
 }
 
 .customheaderdiv {
-  width: 300px; /* Fixed width */
+  width: 20em;
   text-align: left; /* Ensures content remains left-aligned */
 }
 

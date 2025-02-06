@@ -4,7 +4,7 @@ tags: [longboard, DIY, electronics, welding]
 ---
 # DIY Electric Longboard
 
-[[builds/builds-landing|Back to builds]]
+[[builds/builds|Back to builds]]
 
 ![[bottomboard.jpg|this is my caption]]
 ## Thank You
