@@ -1,13 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Quartz Site</title>
-    <a href="core.html">Go to main page</a>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Blog</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    #root {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+    }
+
+    #content {
+      background: white;
+      padding: 30px;
+      max-width: 600px;
+      width: 90%;
+      text-align: left;
+
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 22px;
+      color: #333;
+      margin-top: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+  </style>
 </head>
 <body>
-    <div id="root"></div> <!-- Important! -->
-    <script type="module" src="/index.js"></script>
+
+  <div id="root"></div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const root = document.getElementById("root");
+      if (!root) {
+        console.error("No #root element found in HTML!");
+        return;
+      }
+
+      // Apply inline styles to root for centering
+      root.style.display = "flex";
+      root.style.justifyContent = "center";
+      root.style.alignItems = "center";
+      root.style.height = "100vh";
+      root.style.margin = "0";
+      root.style.fontFamily = "Arial, sans-serif";
+      root.style.backgroundColor = "white";
+
+      // Create the centered content container
+      root.innerHTML = `
+        <div id="content" style="
+          background: white;
+          padding: 30px;
+          max-width: 600px;
+          width: 90%;
+          text-align: left;
+        ">
+        <h1>I am Shihao Cao</h1>
+
+        <h2>I am...</h2>
+        <ul>
+            <li>An engineer who believes the team is as important as the project.</li>
+            <li>A longboarder who's not quite careful enough — you tell yourself that to be truly alive, you need to let go.</li>
+        </ul>
+
+        <h2>My objectives are...</h2>
+        <ul>
+            <li>To equip myself with the tools, experience, and love — to give care and attention to the projects — the engines — the beating heart of the world around me.</li>
+            <li>To prefer to make the most of the world around me rather than to fight it.</li>
+        </ul>
+
+        // <h2>A few things I'm proud of are...</h2>
+        // <ul>
+        //     <li>Built Orchard Vision systems to count and size fruit on every tree in an Orchard</li>
+        //     <li>Built satellites at Cornell University</li>
+        //     <li>Chief Hype Man @ BigRedHacks</li>
+        //     <li
+        // </ul>
+
+        <h2>I am not...</h2>
+        <ul>
+            <li>the man I used to be, and that's okay. I have grown.</li>
+            <li>the man I want to be, and that's okay. I can still be the man I need to be today.</li>
+        </ul>
+
+        <h2>What I Haven't Forgotten</h2>
+        <ul>
+            <li>The nights I climbed the roofs of Ithaca and felt unstoppable — we drew the lines so that we could cross them.</li>
+            <li>The pedagogal responsibility Mr. Huang and Ms. Boomer taught me.</li>
+        </ul>
+        </div>
+      `;
+    });
+  </script>
+
 </body>
 </html>
