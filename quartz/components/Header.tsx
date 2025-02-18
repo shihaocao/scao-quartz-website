@@ -7,6 +7,7 @@ const Header: QuartzComponent = ({ cfg, tree, children, fileData }: QuartzCompon
   // const title = cfg?.pageTitle;
   // if (title !== "Shihao's Site") {
   // Terrible Terrible Hack to see if we're on the main landing page LOL
+  return null;
   if (fileData.filePath !== "content/index.md") {
     return null;
   }
