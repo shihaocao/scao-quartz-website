@@ -96,7 +96,7 @@ async function buildQuartz(argv: Argv, mut: Mutex, clientRefresh: () => void) {
   }
 
   await emitContent(ctx, filteredContent)
-  processDirectory("public")
+  // processDirectory("public")
   // exec("./postedit.sh", (error, stdout, stderr) => {
   //   if (error) {
   //       console.error(`Error: ${error.message}`);
