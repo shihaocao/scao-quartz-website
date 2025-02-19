@@ -41,9 +41,11 @@ const defaultOptions: BreadcrumbOptions = {
 }
 
 function formatCrumb(displayName: string, baseSlug: FullSlug, currentSlug: SimpleSlug): CrumbData {
+  const fpath = resolveRelative(baseSlug, currentSlug);
+  // console.log("Fpath: ", fpath)
   return {
     displayName: displayName.replaceAll("-", " "),
-    path: resolveRelative(baseSlug, currentSlug),
+    path: fpath,
   }
 }
 
@@ -66,7 +68,7 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
 
     // Format entry for root element
     const firstEntry = formatCrumb(options.rootName, fileData.slug!, "/" as SimpleSlug)
-    const crumbs: CrumbData[] = [firstEntry]
+    const crumbs: CrumbData[] = []
 
     if (!folderIndex && options.resolveFrontmatterTitle) {
       folderIndex = new Map()

@@ -20,6 +20,7 @@ import { Mutex } from "async-mutex"
 import DepGraph from "./depgraph"
 import { getStaticResourcesFromPlugins } from "./plugins"
 import { exec } from "child_process";
+import { processDirectory } from "./postedit"
 
 
 type Dependencies = Record<string, DepGraph<FilePath> | null>
@@ -95,18 +96,19 @@ async function buildQuartz(argv: Argv, mut: Mutex, clientRefresh: () => void) {
   }
 
   await emitContent(ctx, filteredContent)
-  exec("./postedit.sh", (error, stdout, stderr) => {
-    if (error) {
-        console.error(`Error: ${error.message}`);
-        return;
-    }
-    if (stderr) {
-        console.error(`stderr: ${stderr}`);
-        return;
-    }
-    console.log(`stdout: ${stdout}`);
-  });
-  console.log(chalk.green(`Done processing ${fps.length} files in ${perf.timeSince()}`))
+  processDirectory("public")
+  // exec("./postedit.sh", (error, stdout, stderr) => {
+  //   if (error) {
+  //       console.error(`Error: ${error.message}`);
+  //       return;
+  //   }
+  //   if (stderr) {
+  //       console.error(`stderr: ${stderr}`);
+  //       return;
+  //   }
+  //   console.log(`stdout: ${stdout}`);
+  // });
+  // console.log(chalk.green(`Done processing ${fps.length} files in ${perf.timeSince()}`))
   release()
 
   if (argv.serve) {
