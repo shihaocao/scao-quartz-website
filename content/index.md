@@ -1,10 +1,9 @@
 ---
-title: A record of who I am
+title: I'm Shihao!
 ---
 
 ### Previously:
 - scaled rooftops at Cornell University
-- supported startups as a Venture Partner for Contrary
 - lead a team that deployed two satellites into space
 - developed flight software and valves at SpaceX
 - founded and lead an autonomous plane team
