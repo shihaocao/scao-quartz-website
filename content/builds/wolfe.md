@@ -47,7 +47,7 @@ I took care to try and mist fade the colors while also keeping a large portion o
   <img src="builds/images/wolfe/wolf-spray-blend.jpg" alt="Image 2" style="width: calc(50% - 5px); height: auto;">
 </div>
 
-With the paint dried, the scariest part was definitely drawing the wolf. I’m very bad at drawing natural things (much better at straight lines), so this was very exciting for me since it was my first freehand drawing on a board.
+With the paint dried, the scariest part was definitely drawing the wolf. I'm very bad at drawing natural things (much better at straight lines), so this was very exciting for me since it was my first freehand drawing on a board.
 
 <div style="display: flex; align-items: flex-start;">
   <img src="builds/images/wolfe/wolf-wolfe-initial.jpg" alt="Image 1" style="width: calc(50% - 5px); height: auto; margin-right: 10px;">

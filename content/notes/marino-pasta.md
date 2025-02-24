@@ -36,7 +36,7 @@ It's a nice, rich, veggie-heavy, and marinara-based pasta. This recipe probably 
 
 ## Instructions
 
-1. Add chicken broth to a pot; add water and salt until there’s enough liquid to cook the pasta, then bring to a boil.
+1. Add chicken broth to a pot; add water and salt until there's enough liquid to cook the pasta, then bring to a boil.
 2. Add the spinach to the boiling water to help remove its bitterness.
 3. Chop the onion.
 4. Cut the bell peppers into strips.
