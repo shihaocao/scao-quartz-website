@@ -1,25 +1,24 @@
 ---
-title: "Sharon St Film Festival"
+title: "When I'm a Father"
 date: 2025-02-09
-tags: [hosting, fun, friends, film]
+tags: [life, dreams, reflection]
 ---
 
 _I hope that when I'm a father, I'll still remember these things at heart._
 
 ## Why?
-All time is well spent.
 
-You can't just keep throttling up. You max out and it burns you away. It burns the earth and the world around you.
+I think about what I would do differently next time, and I wonder if I will still remember the stories behind where my lessons came from... I think it's funny to imagine telling these to my kids one day.
 
-Everything in moderation.
+## Once I'm a father make sure they hear that...
 
-Things can become more important.
-
-Listen to those who love you.
-
-You have to believe that doing your best and doing a good job is enough. Do not worry about anything else.
-
-That this world and this life is too short to be unkind.
+- All time is well spent.
+- You can't just keep throttling up. You max out and it burns you away. It burns the earth and the world around you.
+- Everything in moderation.
+- Things can become more important.
+- Listen to those who love you.
+- You have to believe that doing your best and doing a good job is enough. Do not worry about anything else.
+- That this world and this life is too short to be unkind.
 
 ---
 

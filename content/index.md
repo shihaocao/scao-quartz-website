@@ -2,18 +2,18 @@
 title: I'm Shihao!
 ---
 
-### Previously:
+### Previously
 - scaled rooftops at Cornell University
 - lead a team that deployed two satellites into space
 - developed flight software and valves at SpaceX
 - founded and lead an autonomous plane team
 - chief hype man for Big Red Hacks
 
-### For fun:
+### For fun
 - I take photos
 - I love to longboard
 
-### Things I had fun doing:
+### Things I had fun doing
 - designed my own [remote-control F-86 - plans here!](f86)
 - built my own [electric longboard](longboard)
 - built a 7' 7" [tower of cards](longboard)
