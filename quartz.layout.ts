@@ -13,7 +13,8 @@ export const sharedPageComponents: SharedLayout = {
       // "Discord Community": "https://discord.gg/cRFFHYye7t",
       "LinkedIn": "https://www.linkedin.com/in/shihaocao/",
       "Twitter": "https://x.com/shihao_cao",
-      "Resume": "https://www.shihaocao.com/assets/Shihao_Cao_Resume.pdf"
+      "Resume": "https://www.shihaocao.com/assets/Shihao_Cao_Resume.pdf",
+      "Instagram": "https://www.instagram.com/shihaocao88/",
     },
   }),
 }

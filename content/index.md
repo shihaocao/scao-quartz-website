@@ -2,8 +2,15 @@
 title: I'm Shihao!
 ---
 
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1; display: flex; justify-content: center; max-width: 100%; margin: 0 5px;">
+    <img src="nyc.jpg"
+         style="height: auto; max-width: 30%;">
+  </div>
+</div>
+
 ### Previously
-- scaled rooftops at Cornell University
+- scaled rooftops
 - lead a team that deployed two satellites into space
 - developed flight software and valves at SpaceX
 - founded and lead an autonomous plane team
