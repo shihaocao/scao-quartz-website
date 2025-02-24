@@ -6,6 +6,6 @@ tags: art, code
       
 Are you feeling introspective? In late 2024, I felt that way...
 
-[Check out this audii/visual project](https://listentotheline.com/)
+[Check out this audio/visual project](https://listentotheline.com/)
 
 I hope you enjoy.
