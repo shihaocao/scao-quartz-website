@@ -2,6 +2,7 @@
 title: "Sharon St Film Festival"
 date: 2025-02-09
 tags: [hosting, fun, friends, film]
+draft: true
 ---
 
 _What if we allocated 3 hours to doom through scroll through our friends' kindred algorithms?_
