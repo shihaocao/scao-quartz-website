@@ -6,7 +6,7 @@ tags: [build, cards, fun, hosting]
 
 ## Why
 
-I was walking around Central Park with a friend, and we talked about how time has a very non-linear and exponential return pattern: there’s not much you can do with 30 minutes and 20 dollars. But with 6 hours, and a hundred dollars, the possibilities are endless.
+I was walking around Central Park with a friend, and we talked about how time has a very non-linear and exponential return pattern: there's not much you can do with 30 minutes and 20 dollars. But with 6 hours, and a hundred dollars, the possibilities are endless.
 
 An office chair race around the block? A DIY mixed drink night? Building a huge tower of cards?
 
@@ -50,7 +50,7 @@ I wanted to build something tall, something interesting, and something with card
 </div>
 
 I found a 3D breakdown of the dimensions of the Willis Tower and annotated it on an iPad with rough measurements. As the Willis Tower consists of a 3 x 3 grid, I decided to make the length of a single sheet of paper 2 “units” to minimize the amount of paper cutting. That means that one “unit” is 5.5”.  
-Using simple ratios, given that the base was 3 units long, this makes the base 16.5” x 16.5”. And since the tower was about 16.5 units tall, this means the projected height of the tower would be 90.75”, or Yao Ming (7’ 6”) + 0.75” haha. This was an important calculation to verify to make sure I wouldn’t hit the ceiling. The ceiling seemed to be 11ft ish, so we were all set.
+Using simple ratios, given that the base was 3 units long, this makes the base 16.5” x 16.5”. And since the tower was about 16.5 units tall, this means the projected height of the tower would be 90.75”, or Yao Ming (7' 6”) + 0.75” haha. This was an important calculation to verify to make sure I wouldn't hit the ceiling. The ceiling seemed to be 11ft ish, so we were all set.
 
 **Materials:**
 
@@ -128,7 +128,7 @@ Eventually, a card on top of a drooped floor teeters on just tipping/sliding off
 
 The hotfix I added was a folded card corner support. The folded angle of the card allows it to stand on edges/corners without having to lean on anything, making it ideal to add strength to the voids near the edges/corners. I deemed the issue only severe enough at the corners, so I put two in each corner.
 
-Since corner supports also don’t lean on anything, they use their full width to prop up the tower (as opposed to the 98% height that leaned cards have). The net sum effect of drooping and the full width let corners be restored to the same height as the center cells.
+Since corner supports also don't lean on anything, they use their full width to prop up the tower (as opposed to the 98% height that leaned cards have). The net sum effect of drooping and the full width let corners be restored to the same height as the center cells.
 
 Hotfix complete!
 
@@ -182,7 +182,7 @@ The final antenna towers were made by tearing the cards a bit and interleaving h
 
 ## Death by a Thousand Cuts
 
-I thought it would be the most fitting if we took down the tower by throwing cards at it. After all, that’s how I took down the prototype too.
+I thought it would be the most fitting if we took down the tower by throwing cards at it. After all, that's how I took down the prototype too.
 
 I invited many of my friends, and we all stood about 5 meters away and just started chucking. Quickly we improved, but overall we probably had a 10% hit rate combined. Out of those that hit only 30% ish had enough speed to do any damage. It turns out that the weight of the tower put the cards under enough load that cards would often just bounce off.
 
@@ -222,13 +222,13 @@ We decided to step it up a notch and throw entire decks of cards (still inside t
 
 Looking back, sometimes I feel like we ask ourselves, why do we do things like this? What is the value of toy engineering projects?
 
-The answer I tell myself is that it’s a novel mental exercise to apply skills, theory, and philosophies to problems in a completely different field. It was fun to use rapid prototyping styles for a new material I had never worked with and to develop best practices on the fly. It was fun to try and explain why certain behaviors were happening, and then design around them.
+The answer I tell myself is that it's a novel mental exercise to apply skills, theory, and philosophies to problems in a completely different field. It was fun to use rapid prototyping styles for a new material I had never worked with and to develop best practices on the fly. It was fun to try and explain why certain behaviors were happening, and then design around them.
 
 And maybe it was just awesome and cool. Inspiration and teaching are some of the best ways we can motivate progress. The tower gave me something to look forward to, and something to nerd out over with fellow engineers. Projects like these remind us that there are so many problems out there waiting to be solved, challenges waiting to be overcome. Someone just needs to dream of the solution, chase it, and tackle it.
 
 To dream that it is possible. That anything is possible.
 
-*Why should we go to Mars? Because it’s there.*
+*Why should we go to Mars? Because it's there.*
 
 **Final Tips**
 

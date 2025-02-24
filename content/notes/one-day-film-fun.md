@@ -1,3 +1,11 @@
+---
+title: "One Day Film Fun"
+date: 2025-02-20
+tags: [playbook, film]
+---
+
+# WIP
+
 Somehow the idea of doing a film project is really scary, how will you ever finish? But if you just block out one day for it, start to finish... everyone has one Saturday free right?
 ## Ahead of Time
 
