@@ -6,9 +6,6 @@ tags: [life, meaning, fun, friends]
 
 ### **A letter to myself and others on the joys and circularity of life.**
 
-
-#### **07/01/22**
-
 An epilogue is a story after the end of the book. It's after the climax, after all the highs and lows, after all the battles have been fought, after the main characters are raised, loved, and retired.
 
 It's the last page about the protagonist's curious children and their mannerisms being the same but different. Epilogues are like the smell of asphalt after rain on a hot summer evening. It wraps everything up so neatly.
