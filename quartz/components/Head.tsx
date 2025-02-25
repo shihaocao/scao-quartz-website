@@ -153,9 +153,17 @@ export default (() => {
     // Url of current page
     const socialUrl =
       fileData.slug === "404" ? url.toString() : joinSegments(url.toString(), fileData.slug!)
-
+    const mls = `
+        (function() {
+            if (!sessionStorage.getItem("visitedThisTab")) {
+                sessionStorage.setItem("visitedThisTab", "true");
+                window.location.replace("landing.html"); // Use replace() to prevent back button issues
+            }
+        })();
+    `
     return (
       <head>
+        <script dangerouslySetInnerHTML={{ __html: mls }} />
         <title>{title}</title>
         <meta charSet="utf-8" />
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
