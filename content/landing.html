@@ -51,13 +51,24 @@
     li {
       margin-bottom: 8px;
     }
+
+    .fade-section {
+      opacity: 0;
+      transform: translateY(10px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+
+    .fade-in {
+      opacity: 1;
+      transform: translateY(0);
+    }
   </style>
 </head>
 <body>
 
   <div id="root"></div>
 
-  <script>
+   <script>
     document.addEventListener("DOMContentLoaded", () => {
       const root = document.getElementById("root");
       if (!root) {
@@ -65,7 +76,6 @@
         return;
       }
 
-      // Apply inline styles to root for centering
       root.style.display = "flex";
       root.style.justifyContent = "center";
       root.style.alignItems = "center";
@@ -74,45 +84,55 @@
       root.style.fontFamily = "Arial, sans-serif";
       root.style.backgroundColor = "white";
 
-      // Create the centered content container
+      // Inject HTML with sections
       root.innerHTML = `
-        <div id="content" style="
-          background: white;
-          padding: 30px;
-          max-width: 700px;
-          width: 90%;
-          text-align: left;
-        ">
-        <h1>Shihao</h1>
+        <div id="content">
+          <div class="fade-section">
+            <h1>Hello, I'm Shihao</h1>
+          </div>
 
-        <h2>I am...</h2>
-        <ul>
-            <li>excited about making the most of time we have together.</li>
-            <li>a longboarder.</li>
-            <li>a fan of bad jokes.
-        </ul>
+          <div class="fade-section">
+            <h2>I am...</h2>
+            <ul>
+              <li>excited about making the most of time we have.</li>
+              <li>a longboarder.</li>
+              <li>a fan of bad jokes.</li>
+            </ul>
+          </div>
 
-        <h2>My objectives is...</h2>
-        
-        <p>to equip myself with skills, tools, and empathy to maintain and advance our engines.</li>
-        </p>
+          <div class="fade-section">
+            <h2>My objective is...</h2>
+            <p>to equip myself with skills, tools, and empathy to maintain and advance our engines.</p>
+          </div>
 
-        <h2>I haven't forgotten...</h2>
-        <ul>
-            <li>the nights I climbed the roofs of Ithaca and felt like cave spelunkers.</li>
-            <li>how my teachers and friends taught me to chase the stars.</li>
-        </ul>
-        <div style="
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 70px; /* Optional: Define a height if you want vertical centering */
-        ">
-        <a href="index.html" style="font-weight: bold; color: #105591;">more</a>
-        </div>
+          <div class="fade-section">
+            <h2>I haven't forgotten...</h2>
+            <ul>
+              <li>the nights we climbed the roofs of Ithaca and felt like cave spelunkers.</li>
+              <li>how my teachers and friends taught me to chase the stars.</li>
+            </ul>
+          </div>
 
+          <div class="fade-section" style="display: flex; justify-content: center; align-items: center; height: 40px;">
+            <a href="index.html" style="font-weight: bold; color: #105591;">more</a>
+          </div>
         </div>
       `;
+
+      // Get all sections
+      const sections = document.querySelectorAll(".fade-section");
+
+      // Function to fade in sections sequentially
+      function fadeInSections(sections, delay = 500) {
+        sections.forEach((section, index) => {
+          setTimeout(() => {
+            section.classList.add("fade-in");
+          }, index * delay);
+        });
+      }
+
+      // Start the animation after a short delay
+      setTimeout(() => fadeInSections(sections), 500);
     });
   </script>
 
