@@ -36,3 +36,26 @@ What is the instigating plot point?
 
 Stories
 - An afternoon at the DMV deadass
+
+Absotely fire lines:
+- If I could have stayed I would have
+  - Saying you've tried everything you know, and it's time to move on
+- Is that ok?
+  - Asking if what you're doing is enough for them
+- It's all that country air
+  - Getting at something that is affecting them
+
+## Things to go see with friends or maybe submit to
+- https://filmfreeway.com/SFShorts
+  - Submit by september 10 for regular deadline
+
+## Grants
+- https://sffilm.org/sloan-science-in-cinema-filmmaker-fellowship/
+  - $35k lmao, I'm not good enough for this
+- https://filmmakerswithoutborders.org/grants/
+  - This is approachable but gotta make films about "cultural exchange"
+  - Projects need to line up with themes like social justice, women’s voices, youth voices, identity, cultural exchange, or climate change.
+  - Funding between 0 and 1000
+- https://www.puffinfoundation.org/prospective-applicants/
+  - Projects that teach the public about current issues are what the foundation looks for.
+  - Projects can receive grants up to $3,500. Grant recipients also get:
