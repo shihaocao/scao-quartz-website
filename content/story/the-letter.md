@@ -1,12 +1,12 @@
 ---
-title: "The Letter"
+title: "Letters"
 date: 2025-02-28
 tags: [film, plot, draft]
 ---
 Something I thought I'd like to film.
 
 ## Core
-Not exactly unrequited love, but being unable to put hat you want to put down on words.
+Not exactly unrequited love, but being unable to put down the thought you want to put down.
 
 Target Emotions:
 - Regret
@@ -14,18 +14,31 @@ Target Emotions:
 - Writers block
 - Nostalgia
 
+## Characters
+- MC
+- LI
+
 ## Act 0
-0. Close shot: Hey... I got you something...
-   1. Blues are sadder
+Objectives:
+- Present the central theme of the letter -- there's a lot of tension packed into the letter itself.
+
+Shot Ideas:
+- Past - LI taping up a letter onto a wall of dispos -- cherishing this letter
+- Present - LI clutching the letter closely, rocking back and forth
+
 
 ## Act 1 - Setup
-0. Black: clock ticking. 
-1. Dim room: Bringing out some nice paper at a desk.
-2. Wide shot (of character): Click of the pen
-3. Macro shot: Start writing: "Hey, G" - Cut before the first letter is written
-4. Black
-5. Medium shot: Top down on desk
-6. Get laptop, and notebook and put in bag and leave
+Objectives:
+- Describe the main character through a warm rool and his tools (mine is lame lol)
+- Capture the frustration and writers block.
+
+1. Black: clock ticking. 
+2. Set the scene
+3. Wide shot (of character): Click of the pen
+4. Macro shot: Start writing: "Hey, X" - Cut before the first letter is written
+5. Black
+6. Medium shot: Top down on desk
+7. Get laptop, and notebook and put in bag and leave
 
 ## Act 2 - Conflict
 1. Walking into a coffee store
@@ -39,7 +52,7 @@ Target Emotions:
 1. POV: Open up a notebook.
    1. Pause over the ripped out pages
 2. Keep flipping to a clean page
-3. Callback shot: "Hey G"
+3. Callback shot: "Hey X"
 4. Montage:
    1. Coffee Shop
       1. Multiple sheets of paper
