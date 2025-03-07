@@ -1,7 +1,7 @@
 ---
 title: "Seeking Epilogue"
 date: 2022-07-02
-tags: [life, meaning, fun, friends]
+tags: [life, meaning, fun, friends, time]
 ---
 
 ### **A letter to myself and others on the joys and circularity of life.**

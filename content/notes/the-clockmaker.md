@@ -1,7 +1,7 @@
 ---
 title: 'The Clockmaker - Vexare'
 date: 2025-01-27
-tags: [life, meaning, fun, friends]
+tags: [life, meaning, music, time]
 ---
 
 Like many songs back then in middle school, I associate [The Clockmaker - Vexare](https://youtu.be/-fhj30f3aJ0?si=-Qzj0DpENvQtwAG3) with the spring rain in Virginia, and the cold morning bus rides waiting for first period.
@@ -17,7 +17,7 @@ When you hear it, you won't miss it. It's unmistakable. It snaps you back to rea
 Back then, this woke me up -- I leaned forward, and let a pseudo adrenaline pump, and told myself to
 become something more than I was -- as much as I could.
 
-Today, I am weaker, but also wiser. I'm old enough now to realize that it is a beautiful thing when time slips through your fingertips. You can't hold on to it any tighter - you can't fight it, you just have to savor every drop, and to be thankful for it all.
+But today, I am wiser -- I'm old enough now to realize that it is a beautiful thing when time slips through your fingertips. You can't hold on to it any tighter - you can't fight it, you just have to savor every drop, and to be thankful for it all.
 
 N and I coined a cute phrase to live by, to be: *"In pursuit of losing track of time"*
 
