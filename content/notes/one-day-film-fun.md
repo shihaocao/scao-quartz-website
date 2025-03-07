@@ -59,3 +59,17 @@ Absotely fire lines:
 - https://www.puffinfoundation.org/prospective-applicants/
   - Projects that teach the public about current issues are what the foundation looks for.
   - Projects can receive grants up to $3,500. Grant recipients also get:
+
+## Acting Classes
+- https://thestarfishclass.com/act/
+	- Weds night 6:45 - 9:45
+	- $260 a month
+	- Theatre of Yugen (2840 Mariposa St, San Francisco, CA 94110)
+- Bay Area Acting Studio
+	- https://clients.mindbodyonline.com/ASP/main_enroll.asp?studioid=16681&tg=&vt=214&lvl=&stype=-8&view=day&trn=0&page=&catid=&prodid=&date=3%2f6%2f2025&classid=0&prodGroupId=&sSU=&optForwardingLink=&qParam=&justloggedin=&nLgIn=&pMode=0&loc=1
+	- San Jose
+	- Tues/Weds/Thurs
+	- $325 a month
+- American Conservatory Theatre
+	- Various classes weekly and one day:
+	- https://www.act-sf.org/training/studio-a-c-t/spring-session-2025/spring-class-schedule/
