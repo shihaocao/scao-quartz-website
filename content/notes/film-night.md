@@ -29,6 +29,13 @@ the gang ready to film enjoy</div>
 
 We will form critique groups to discuss, score, and enjoy the films as they are shown. Groups will judge categories such as Best Story, Best Acting, Best Cinematography, etc. At the end of the festival, each group will submit their reviews to a form for final scoring. Participants who submitted the winner of each category will win a small prize.
 
+<div style="text-align: center;">
+  <img src="notes/images/film-night/film-night-trophies.jpg" alt="Trophies" style="width: auto; height: auto; max-width: 50%;">
+</div>
+<div style="flex: 1; display: flex; text-align: center; justify-content: center; font-style: italic;">
+the trophies</div>
+
+
 ## Last Festival's Winners
 
 [In this sheet](https://docs.google.com/spreadsheets/d/1xodJ6FcrDh0re6l1VDvCYZOGMVkukSbHSbJTJAmLffc/edit?usp=sharing), you can find the full submission list as well as the winners in each category. Feel free to take inspiration for your own submissions, but bring what speaks to your heart!
