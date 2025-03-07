@@ -157,6 +157,7 @@ export default (() => {
         (function() {
             if (!sessionStorage.getItem("visitedThisTab")) {
                 sessionStorage.setItem("visitedThisTab", "true");
+                console.log("Set visited this tab to true");
                 window.location.replace("landing.html"); // Use replace() to prevent back button issues
             }
         })();
