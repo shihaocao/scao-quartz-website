@@ -153,18 +153,25 @@ export default (() => {
     // Url of current page
     const socialUrl =
       fileData.slug === "404" ? url.toString() : joinSegments(url.toString(), fileData.slug!)
-    const mls = `
-        (function() {
-            if (!sessionStorage.getItem("visitedThisTab")) {
-                sessionStorage.setItem("visitedThisTab", "true");
-                console.log("Set visited this tab to true");
-                window.location.replace("landing.html"); // Use replace() to prevent back button issues
-            }
-        })();
-    `
+      const mls = `
+      document.addEventListener("DOMContentLoaded", function() {
+          if (!sessionStorage.getItem("visitedThisTab")) {
+              sessionStorage.setItem("visitedThisTab", "true");
+              console.log("Redirecting to landing page...");
+              window.location.replace("landing.html");
+          } else {
+              document.documentElement.style.display = "block"; // Show page if already visited
+          }
+      });
+  `;
+  
+  
     return (
       <head>
         <script dangerouslySetInnerHTML={{ __html: mls }} />
+        <style>
+          {`html { display: none; }`}  {/* Hide page initially */}
+        </style>
         <title>{title}</title>
         <meta charSet="utf-8" />
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
