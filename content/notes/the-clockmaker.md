@@ -10,7 +10,10 @@ It's dubstep of course. I would steel myself up each morning to telling myself I
 
 It hard to keep focus, I would drift in and out, from worries about my todos, or just abstract desires to work harder somehow, or to figure out how to waste less time.
 
----
+<div style="flex: 1; display: flex; justify-content: center; max-width: 100%; margin: 0 5px;">
+    <img src="notes/images/clock-maker.jpg" style="height: auto; max-width: 40%;">
+</div>
+<div style="flex: 1; display: flex; text-align: center; justify-content: center; font-style: italic;">In 2024, my Casio finally ran out of battery, so I changed it.</div>
 
 When you hear it, you won't miss it. It's unmistakable. It snaps you back to reality, and your mortality grips you. Unlike how you thought it would sound, it's far more pressing than it is rhythmic: *"tik tik tik"* drumming faster than you can keep up -- always. Taunting you: "ready or not, here I come".
 

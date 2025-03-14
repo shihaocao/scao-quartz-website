@@ -29,7 +29,7 @@ Shot Ideas:
 
 ## Act 1 - Setup
 Objectives:
-- Describe the main character through a warm rool and his tools (mine is lame lol)
+- Describe the main character through a warm room and his tools (mine is lame lol)
 - Capture the frustration and writers block.
 
 1. Black: clock ticking. 
