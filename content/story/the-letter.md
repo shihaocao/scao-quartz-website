@@ -2,6 +2,7 @@
 title: "Letters"
 date: 2025-02-28
 tags: [film, plot, draft]
+draft: true
 ---
 Something I thought I'd like to film.
 
@@ -17,6 +18,12 @@ Target Emotions:
 ## Characters
 - MC
 - LI
+
+## MC Color Design
+Blues and whites.
+
+## LI Color Design
+Greens and earths.
 
 ## Act 0
 Objectives:
