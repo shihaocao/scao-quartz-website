@@ -12,6 +12,20 @@ This was my first ever production! I had a lot of fun making this, and I had eve
 
 Over the holiday season at the start of 2025, I spent a lot of time in bed and away from friends due to a medical emergency. The plus side is that I decided to purge my YT feed, and only keep the stuff I actually wanted to watch -- and I got a lot of good short films. [Language of memory by Devin Desouza](https://www.youtube.com/watch?v=IVbvj3ZLS5A) particularly struck me. Not only was it a beautiful heart tugger, but also it a mere `1:04`, it made me realize: "Wait, I could maybe try doing this -- I already own a camera..."
 
+## Love Lives in SF
+_Below is the description of my [ig post](https://www.instagram.com/p/DJHtkhRS9gH/)_
+
+Letters (2025) will premier at the Love Lives in SF Film Festival 2025!
+
+Thank you to @love.livesinsf @cca.caplconnects @artogether__ @grayareaorg for this amazing opportunity.
+
+Tickets (Friday, May 9th @ 5:00) are available at the link in my bio!
+
+Just like the emotions that barely fit into the words of a letter, I found myself barely hanging onto the images that floated through my head. In conservations with friends, I realized I wanted to capture these scenes and ideas before they’re gone. Sometimes, we don’t want to forget.
+
+I am thankful to @stewart349 , @annietsuii , @wuminations , @krithiknrao , @e.williams02 , @aliris.t @nikitaxaggarwal for being amazing friends excited to make this idea into a real short film with me. And to everyone else along the way who was cheering me on. And to you, thank you.
+
+#Letters #LoveLivesinSF2025 #LoveLivesinSF #GrayArea
 
 ## Storyboarding on The Train
 
