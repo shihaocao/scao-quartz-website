@@ -26,4 +26,4 @@ N and I coined a cute phrase to live by, to be: *"In pursuit of losing track of 
 
 ### TODO
 
-List out more songs that have clock noises in them. They all give me similar chills but in a good way.
+List out more songs that have clock noises in them. Here's a [spotify playlist](https://open.spotify.com/playlist/5hf9rP2D5s7OsMNymn5XTB?si=eI-APNo2R3Wasa4RMvIy1w&pi=wkZ2PJDsTIeo1) I just stick songs into that remind me of the clock maker
