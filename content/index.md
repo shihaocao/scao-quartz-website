@@ -10,8 +10,8 @@ title: I'm Shihao!
 </div>
 
 ### Currently I am...
-- Trying to learn short films and cinematography
-- 24 hours of lemons racing
+- trying to [capture fleeting emotions in films](https://www.instagram.com/shots.by.shihao)
+- [racing in 24 hrs of lemons](https://www.instagram.com/magicarpmotors/)
 - working on beaming [4G LTE from Space](https://www.starlink.com/us/business/direct-to-cell) via Starlink
 
 ### Previously
