@@ -15,7 +15,6 @@ The full list is WIP! It is in no way complete!
 ### Understanding the World
 - [Asianometry](https://www.youtube.com/@Asianometry)
 - [SmarterEveryDay](https://www.youtube.com/@smartereveryday)
-- [Wendover Productions](https://www.youtube.com/@Wendoverproductions)
 - [CGP Grey](https://www.youtube.com/@CGPGrey)
 - [Tom Scott](https://www.youtube.com/@TomScottGo)
 
@@ -24,7 +23,10 @@ The full list is WIP! It is in no way complete!
 
 ### EE/Microelectronics
 - [mixela](https://www.youtube.com/@mitxela)
-- [Bean Eater](https://www.youtube.com/@BenEater)
+- [Ben Eater](https://www.youtube.com/@BenEater)
+
+### Infrastructure
+- [Practical Engineering](https://www.youtube.com/@PracticalEngineeringChannel)
 
 ### Math
 - [3b1b](https://www.youtube.com/@3blue1brown)
