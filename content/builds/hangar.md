@@ -107,3 +107,12 @@ The flying wing nature of the FT Arrow lets it glide so well. The lack of any ki
   <img src="builds/images/f86-mk2-glory.jpeg" alt="F86 Mk2" style="max-width: 100%;">
 </div>
 <div style="text-align: center; font-style: italic;">My pride and pleasure, but the scariest to fly.</div>
+
+---
+
+## FT-22 (second build)
+
+<div style="display: flex; justify-content: center;">
+  <img src="builds/images/hangar/seattle-f22.jpg" alt="FT-22 #2" style="max-width: 100%;">
+</div>
+<div style="text-align: center; font-style: italic;">A much more recent build -- I was yearning to fly the original plane that brought me into this world -- and so I built another FT-22. Also my hair is so long...</div>
