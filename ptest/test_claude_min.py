@@ -65,12 +65,19 @@ def background_task_handler(func: Callable) -> Callable:
 @background_task_handler
 async def example_background_task_decorator():
     """Example using the decorator approach"""
-    start_time = anyio.current_time()
-    while True:
-        logging.info("Background task running")
-        if anyio.current_time() - start_time > 1:
-            raise RuntimeError("Background task failed after 1s")
-        await anyio.sleep(0.1)
+    async def background_task():
+        start_time = anyio.current_time()
+        while True:
+            logging.info("Background task running")
+            if anyio.current_time() - start_time > 1:
+                raise RuntimeError("Background task failed after 1s")
+            await anyio.sleep(0.1)
+            
+    async with anyio.create_task_group() as tg:
+        tg.start_soon(background_task)
+        logging.info("Background task started")
+        yield "test"
+        logging.info("Background task finished")
 
 
 # Test example
