@@ -35,53 +35,32 @@ def background_task_handler(func: Callable) -> Callable:
         background_errors = []
         fixture_value = None
         fixture_gen = None
-        fixture_task_cancelled = False
         
-        # Create a nursery to monitor background tasks
+        # Helper to filter and collect real errors
+        def collect_real_errors(exc):
+            """Collect non-cancellation/cleanup errors"""
+            ignored_types = (anyio.get_cancelled_exc_class(), GeneratorExit, StopAsyncIteration)
+            
+            if isinstance(exc, BaseExceptionGroup):
+                for e in exc.exceptions:
+                    if not isinstance(e, ignored_types):
+                        background_errors.append(e)
+            elif not isinstance(exc, ignored_types):
+                background_errors.append(exc)
+        
+        # Create a task to run the fixture
         async def fixture_runner():
-            nonlocal fixture_value, fixture_gen, fixture_task_cancelled
+            nonlocal fixture_value, fixture_gen
             try:
-                if inspect.isasyncgenfunction(func):
-                    # Handle async generator (pytest fixture with yield)
-                    fixture_gen = func(*args, **kwargs)
-                    # Get the yielded value from the fixture
-                    fixture_value = await fixture_gen.asend(None)
-                    # The fixture has started its background work and yielded
-                    # We keep this task alive to maintain the fixture context
-                    await anyio.sleep_forever()
-                else:
-                    # Handle regular async function
-                    result = await func(*args, **kwargs)
-                    fixture_value = result
-                    await anyio.sleep_forever()
+                # Start the fixture generator
+                fixture_gen = func(*args, **kwargs)
+                # Get the yielded value
+                fixture_value = await fixture_gen.asend(None)
+                # Keep the fixture context alive
+                await anyio.sleep_forever()
             except anyio.get_cancelled_exc_class():
-                # Expected when we cancel during cleanup
-                fixture_task_cancelled = True
+                # Expected during cleanup
                 logging.debug("Fixture runner cancelled (expected during cleanup)")
-                # When cancelled, try to cleanly exit the generator by letting it fall through
-                if fixture_gen is not None:
-                    try:
-                        # Try to let the generator exit naturally by sending None
-                        # This will cause it to continue past the yield
-                        await fixture_gen.asend(None)
-                    except StopAsyncIteration:
-                        # Generator completed normally
-                        pass
-                    except anyio.get_cancelled_exc_class():
-                        # Cancellation propagated through
-                        pass
-                    except BaseExceptionGroup as eg:
-                        # Filter out the expected exceptions from trio's task group
-                        real_errors = []
-                        for exc in eg.exceptions:
-                            if not isinstance(exc, (anyio.get_cancelled_exc_class(), GeneratorExit)):
-                                real_errors.append(exc)
-                        if real_errors:
-                            background_errors.extend(real_errors)
-                    except Exception as e:
-                        # Single exception (not a group)
-                        if not isinstance(e, (anyio.get_cancelled_exc_class(), GeneratorExit)):
-                            background_errors.append(e)
                 raise
             except Exception as e:
                 logging.error(f"Background fixture failed: {e}", exc_info=True)
@@ -95,60 +74,31 @@ def background_task_handler(func: Callable) -> Callable:
                 # Give the fixture a moment to start and yield
                 await anyio.sleep(0.01)
                 
-                # Always shield the test from cancellation
+                # Shield the test from cancellation
                 with anyio.CancelScope(shield=True):
                     try:
-                        # Yield the fixture value (None if fixture just yields without value)
+                        # Yield the fixture value to the test
                         yield fixture_value
                     finally:
                         logging.info("Cleaning up background task")
-                        
-                        # Cancel the task group to stop background work
+                        # Cancel all background tasks
                         tg.cancel_scope.cancel()
                         
         except BaseExceptionGroup as eg:
-            # Collect any background errors that occurred
-            for exc in eg.exceptions:
-                if not isinstance(exc, anyio.get_cancelled_exc_class()):
-                    logging.error(f"Background task error: {exc}", exc_info=True)
-                    if exc not in background_errors:
-                        background_errors.append(exc)
+            collect_real_errors(eg)
         except Exception as e:
-            # Handle single exceptions (not exception groups)
-            if not isinstance(e, anyio.get_cancelled_exc_class()):
-                logging.error(f"Background task error: {e}", exc_info=True)
-                if e not in background_errors:
-                    background_errors.append(e)
+            collect_real_errors(e)
         
-        # If the fixture wasn't cancelled and we have a generator, we need to close it
-        if not fixture_task_cancelled and fixture_gen is not None:
+        # Close the fixture generator if it exists
+        if fixture_gen is not None:
             try:
-                # Try to close the generator
                 await fixture_gen.aclose()
-            except StopAsyncIteration:
-                # Normal completion
-                pass
-            except BaseExceptionGroup as cleanup_eg:
-                # Handle exception groups from generator cleanup
-                # We expect to see GeneratorExit and Cancelled here
-                real_errors = []
-                for exc in cleanup_eg.exceptions:
-                    # Only log truly unexpected errors
-                    if not isinstance(exc, (anyio.get_cancelled_exc_class(), GeneratorExit, StopAsyncIteration)):
-                        logging.error(f"Unexpected error during fixture cleanup: {exc}", exc_info=True)
-                        real_errors.append(exc)
-                
-                # Only add to background_errors if these are real problems
-                # GeneratorExit wrapped in an exception group is expected behavior
-                if real_errors:
-                    background_errors.extend(real_errors)
+            except BaseExceptionGroup as eg:
+                collect_real_errors(eg)
             except Exception as e:
-                # Handle single exceptions during cleanup
-                if not isinstance(e, (anyio.get_cancelled_exc_class(), GeneratorExit, StopAsyncIteration)):
-                    logging.error(f"Unexpected error during fixture cleanup: {e}", exc_info=True)
-                    background_errors.append(e)
+                collect_real_errors(e)
         
-        # Re-raise any background errors after cleanup
+        # Re-raise any real errors that occurred
         if background_errors:
             logging.error("Background task failed during test execution")
             raise background_errors[0]
@@ -159,13 +109,14 @@ def background_task_handler(func: Callable) -> Callable:
 # Example usage - simple and clean
 @pytest.fixture
 @background_task_handler
-async def background_task():
+async def background_task_fail():
+    fail_after = 1
     async def worker():
         start_time = anyio.current_time()
         while True:
             logging.info("Background task running")
-            if anyio.current_time() - start_time > ERROR_AFTER_SECONDS:
-                raise RuntimeError(f"Background task failed after {ERROR_AFTER_SECONDS}s")
+            if anyio.current_time() - start_time > fail_after:
+                raise RuntimeError(f"Background task failed after {fail_after}s")
             await anyio.sleep(0.1)
 
     async with anyio.create_task_group() as tg:
@@ -175,9 +126,37 @@ async def background_task():
         # The decorator will handle cancellation and error propagation
 
 
+@pytest.fixture
+@background_task_handler
+async def background_task_success():
+    fail_after = 3
+    async def worker():
+        start_time = anyio.current_time()
+        while True:
+            logging.info("Background task running")
+            if anyio.current_time() - start_time > fail_after:
+                raise RuntimeError(f"Background task failed after {fail_after}s")
+            await anyio.sleep(0.1)
+
+    async with anyio.create_task_group() as tg:
+        tg.start_soon(worker)
+        yield  # Yield control to the test while the background task runs
+        logging.info("Yielding control back to fixture")
+        # The decorator will handle cancellation and error propagation
+
+
+
 # Test examples
 @pytest.mark.anyio
-async def test_background_fail(background_task):
+async def test_background_fail(background_task_fail):
+    logging.info("Test starting")
+    await anyio.sleep(2)  # Give background task time to fail
+    assert True
+
+
+# Test examples
+@pytest.mark.anyio
+async def test_background_success(background_task_success):
     logging.info("Test starting")
     await anyio.sleep(2)  # Give background task time to fail
     assert True

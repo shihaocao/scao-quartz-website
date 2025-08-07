@@ -3,11 +3,9 @@ import pytest
 import logging
 
 
-ERROR_AFTER_SECONDS = 1  # Set this constant to control after how many seconds to raise the error
-
-
 @pytest.fixture
 async def background_task():
+    ERROR_AFTER_SECONDS = 1  # seconds before the worker raises
     async def worker():
         start_time = anyio.current_time()
         while True:
