@@ -1,0 +1,16 @@
+# pyproject.toml
+
+[tool.pytest.ini_options]
+# enable live‐capture of log messages
+log_cli = true
+
+# set the minimum level to INFO
+log_cli_level = "INFO"
+
+# optional: customize the output format
+log_cli_format = "%(asctime)s %(levelname)-8s %(name)s: %(message)s"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
+
+# (optional) other pytest ini_options:
+# addopts = "-q --disable-warnings"
+# testpaths = ["tests"]
