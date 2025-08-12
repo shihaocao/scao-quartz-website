@@ -14,3 +14,7 @@ log_cli_date_format = "%Y-%m-%d %H:%M:%S"
 # (optional) other pytest ini_options:
 # addopts = "-q --disable-warnings"
 # testpaths = ["tests"]
+
+
+timeout = 5
+timeout_method = "thread"
