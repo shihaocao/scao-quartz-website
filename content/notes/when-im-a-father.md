@@ -23,7 +23,7 @@ I think about what I would do differently next time, and I wonder if I will stil
 ---
 
 That it is a privilege to be able to love and to care for one another. We live in a world where systems
-and structures seek to automate and scale tendrils of optimization into every corner of our live.
+and structures seek to automate and scale tendrils of optimization into every corner of our lives.
 
 Resist this.
 
