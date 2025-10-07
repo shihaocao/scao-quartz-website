@@ -9,7 +9,6 @@ tags: photos, meaning
 I currently shoot with a Fujifilm X-S20 With a Sigma 18-50 F2.8.
 
 In the past I shot with a Nikon D810 with a 28-300, and a Nikon D5300 with a 18-200.
-hy.
 
 ## Shots I like
 

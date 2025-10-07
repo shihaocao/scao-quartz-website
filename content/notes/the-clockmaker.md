@@ -8,7 +8,7 @@ Like many songs back then in middle school, I associate [The Clockmaker - Vexare
 
 It's dubstep of course. I would steel myself up each morning to telling myself I had a mission for the day. I was just a child, but I was alive -- or atleast alive within the bubble of understanding that I had.
 
-It hard to keep focus, I would drift in and out, from worries about my todos, or just abstract desires to work harder somehow, or to figure out how to waste less time.
+It's hard to keep focus, I would drift in and out, from worries about my todos, or just abstract desires to work harder somehow, or to figure out how to waste less time.
 
 <div style="flex: 1; display: flex; justify-content: center; max-width: 100%; margin: 0 5px;">
     <img src="notes/images/clock-maker.jpg" style="height: auto; max-width: 40%;">

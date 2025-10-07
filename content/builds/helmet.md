@@ -4,11 +4,22 @@ date: 2025-08-04
 tags: [build, skate, art]
 ---
 
-I took a fall, and the helmet saved my life. Tragically, this also meant that the helmet was also *spent* as you cannot re-use a helmet.
+In early summer of 2025, I took a big fall while skating, and "spent" my helmet. So I needed a new one, so I thought -- might as well give the new one a paint job that I liked. In the rest of this post I talk about the process of painting and sealing it.
 
-So, I needed to get a new helmet, and I thought it'd be a perfect time to paint my helmet. It's a huge part of my outfit everyday, so might as well give it a paint job.
+#### Meaning
+I wanted the helmet to remind me of the feeling of being on [afterburner](/notes/afterburner). I imagine the streaks of white and blue tearing across each other like aircraft ripping through the sky.
+
+The three `X's` were put on because they just felt fun haha -- but in retrospect I could maybe guess that it represents that even if I get three-strikes, even if it might seem like the end, you can still push forward.
+
+<div style="text-align: center;">
+  <img src="builds/images/helmet/helmet-smile-gloss.jpg" alt="Image" style="width: auto; height: auto; max-width: 60%;">
+</div>
+
+## Building it
 
 Masking was the first step, and extremely tedious, I knew I wanted light colors and I didn't want it to unevenly land on the inner foam. I also had bad experience with foam being melted by spray paint propellant (unsure if it would happen here), but wanted to be cautious.
+
+On the right, I built a stand out of sticking poster tube into the bottom of a cardboard box. The large diameter of the tube helps give a generous base for holding the helmet from the inside.
 
 The base white coat was less so for primer, and mostly because I wanted a white base, and streaks of blue on top.
 
@@ -25,10 +36,10 @@ The base white coat was less so for primer, and mostly because I wanted a white 
 </div>
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1; text-align: center; font-style: italic;">Masking</div>
-  <div style="flex: 1; text-align: center; font-style: italic;">Base White Coat</div>
+  <div style="flex: 1; text-align: center; font-style: italic;">Base White Coat on top of Stand</div>
 </div>
 
-I own a gas mask, so might as well use it.
+I own a gas mask, so might as well use it. I did buy `3M P100 60926 Cartridges` though.
 
 <div style="text-align: center;">
   <img src="builds/images/helmet/helmet-gas-mask.jpg" alt="Image" style="width: auto; height: auto; max-width: 40%;">
@@ -45,6 +56,8 @@ My primary techniques were:
 - Spray extremely slowly to create a spattering effect
 - Standard spray fast arcing
 - Go back over with acrylic marker to create squiggles, highlights, and the front side X's.
+
+The inspiration to combine a bunch of different techniques came from this instagram post: https://www.instagram.com/reel/DLbwRyjI1J0/
 
 First pass looks pretty good!
 
@@ -84,11 +97,11 @@ The final spray coat really makes the colors pop in the sun and it makes me very
   <div style="flex: 1; text-align: center; font-style: italic;">Part of the backside X, honestly my favorite</div>
 </div>
 
-_Thank you to Aliris for taking these photos for me_
-
 <div style="text-align: center;">
-  <img src="builds/images/helmet/helmet-smile-gloss.jpg" alt="Image" style="width: auto; height: auto; max-width: 40%;">
+  <img src="builds/images/helmet/helmet-side-2.jpg" alt="Image" style="width: auto; height: auto; max-width: 60%;">
 </div>
+
+_Thank you to Aliris for taking these photos for me_
 
 ## Notes For Next Time
 Next time I do this, I should order better spray paint can tips and finer tip acrylic markers.
