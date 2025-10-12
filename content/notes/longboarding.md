@@ -11,9 +11,19 @@ I longboard everywhere at Cornell, and downhill full-speed whenever the road is 
 
 I started longboarding back in middle school when I built my first electric longboard. But since then, I have always preferred non-electric boards. They are 5x lighter and easier to carry around.
 
+## I've had a few boards
+
+<div style="text-align: center;">
+  <img src="notes/images/longboarding/longboarding-skate-timeline.jpg" alt="Image" style="width: auto; height: auto; max-width: 80%;">
+</div>
+<div style="display: flex; align-items: flex-start;">
+  <div style="flex: 1; display: flex; text-align: center; justify-content: center; font-style: italic;">A timeline of when the boards have been in my life.</div>
+</div>
+
+
 ---
 
-### The Electric Board
+### The DIY Electric Longboard
 
 This was my first-ever board, and it was a whole saga to [build](/builds/longboard) in Middle School.
 
