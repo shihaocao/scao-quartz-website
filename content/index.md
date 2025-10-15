@@ -36,6 +36,8 @@ title: I'm Shihao!
 - All the Light We Cannot See - Anthony Doerr
 
 ### Notes
-Here are some of my favorite notes:
 - [[seeking-epilogue]]
 - [[the-clockmaker]]
+
+### Please reach out if you also think about:
+- How to excite students to work with hardware
