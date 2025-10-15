@@ -11,13 +11,13 @@ I longboard everywhere at Cornell, and downhill full-speed whenever the road is 
 
 I started longboarding back in middle school when I built my first electric longboard. But since then, I have always preferred non-electric boards. They are 5x lighter and easier to carry around.
 
-## I've had a few boards
+## I've had a few boards...
 
 <div style="text-align: center;">
   <img src="notes/images/longboarding/longboarding-skate-timeline.jpg" alt="Image" style="width: auto; height: auto; max-width: 80%;">
 </div>
 <div style="display: flex; align-items: flex-start;">
-  <div style="flex: 1; display: flex; text-align: center; justify-content: center; font-style: italic;">A timeline of when the boards have been in my life.</div>
+  <div style="flex: 1; display: flex; text-align: center; justify-content: center; font-style: italic;">A timeline of when the boards have been in my life (2015 - 2025).</div>
 </div>
 
 
@@ -41,13 +41,13 @@ This was my first-ever board, and it was a whole saga to [build](/builds/longboa
   <div style="flex: 1; display: flex; text-align: center; justify-content: center; font-style: italic;">My first board -- the electric longboard</div>
 </div>
 
-I rode it whenever I needed to go from North campus down to Central campus, and it certainly got the job done. It was fast, and I was never late to class.
+I rode it whenever I needed to go from North campus down to Central campus, and it certainly got the job done. It was fast, and it helped me mitigate how late to class I was.
 
 ---
 
 ### The Way Too Small Nickel Board
 
-I got this board in the Summer at SpaceX in 2020 out of necessity. I didn't bring my electric board to LA, and since I didn't have a car, I wanted a board so I could ride between my office in HT-21 and HT-01.
+I got this Retrospec Nickel-board in the Summer at SpaceX in 2020 out of necessity. I didn't bring my electric board to LA, and since I didn't have a car, I wanted a board so I could ride between my office in HT-21 and HT-01.
 
   <div style="flex: 1; display: flex; justify-content: center; max-width: 100%; margin: 0 5px;">
     <img src="notes/images/longboarding/old-red.jpg"
@@ -55,7 +55,7 @@ I got this board in the Summer at SpaceX in 2020 out of necessity. I didn't brin
   </div>
   <div style="flex: 1; display: flex; text-align: center; justify-content: center; font-style: italic;">The old red nickelboard</div>
 
-I later converted it into a snowboard and never bothered to put it back together lmao.
+I later converted it into a snowboard and never bothered to put it back together...
 
 <div style="flex: 1; display: flex; justify-content: center; max-width: 100%; margin: 0 5px;">
     <img src="notes/images/longboarding/snowboard.jpg"
@@ -65,9 +65,9 @@ I later converted it into a snowboard and never bothered to put it back together
 
 ---
 
-### The GP
+### The Mangeto Nickel
 
-The general-purpose board. I got this board in the Fall of 2021, as I needed a board with real grip tape and stiffness. This board, especially with the upgraded 70mm wheels, gave me real stiffness and confidence in going down the hill into Collegetown at full speed without carving.
+The general-purpose nickel board. I got this board in the Fall of 2021 as I needed a board with real grip tape and stiffness. This board, especially with the upgraded 70mm wheels, gave me real stiffness and confidence in going down the hill into collegetown at full-speed without carving.
 
 <div style="flex: 1; display: flex; justify-content: center; max-width: 100%; margin: 0 5px;">
     <img src="notes/images/longboarding/gp.jpg"
@@ -76,7 +76,7 @@ The general-purpose board. I got this board in the Fall of 2021, as I needed a b
   <div style="flex: 1; display: flex; text-align: center; justify-content: center; font-style: italic;">The general purpose board</div>
 
 
-Its true beauty is its portability, though. I don't go to class without it.
+Its true beauty is its portability though. I don't go to class without it.
 
 ---
 
@@ -92,7 +92,7 @@ Right after I got the GP board, I knew I needed some gloves because I was going 
 
 ---
 
-### The First Nicer Board
+### The First Nicer Board - Flower Dropthru 42"
 
 This board is a drop-deck 42" board made from 8-ply maple. It uses RKP trucks. I upgraded the wheels to Orangatang Stimulus 70mm 80a wheels on Bones Red Bearings. This is my nicest ride for sure. If only I could bring it everywhere haha. I kitted this ride out for downhill freeriding and sliding.
 
