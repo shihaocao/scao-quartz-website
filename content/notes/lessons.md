@@ -17,8 +17,6 @@ It's hard to, there's almost more to do. But keeping teems small. With a small t
 
 We should repeatedly be trying to do `zero-to-one` with small teams. Then we hand off to a separate team to scale.
 
-You will run into trouble if you try to do `zero-to-one` and scale with the _same_ team, or worse, with the same product.
-
 ### You get old when you don't want to be young anymore
 We assume a certain set of things belongs to a youth that is inaccessible.
 
@@ -26,9 +24,9 @@ This can come at two levels:
 - The individual
 - The group
 
-In-accessibility of the individual is the class of actions you think you cannot take in isolation -- curiosity, grinding, sacrifice.
+Inaccessibility of the individual is the class of actions you think you cannot take in isolation -- curiosity, grinding, sacrifice.
 
-In-accessibility of the group is the set of actions that would be good for the group, but the channels and precedents do not exist to communicate and coordinate that need.
+Inaccessibility of the group is the set of actions that would be good for the group, but the channels and precedents do not exist to communicate and coordinate that need.
 
 We must combat both.
 
