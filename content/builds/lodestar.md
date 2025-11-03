@@ -24,6 +24,23 @@ I worked on this project with Govind Chari! Check out his site [here](https://go
 
 ## 2024 Update
 
+<div style="display: flex; align-items: flex-start;">
+  <div style="flex: 1; display: flex; justify-content: center; max-width: 100%; margin: 0 5px;">
+    <img src="builds/images/lodestar/vvtol_on_desk.jpeg"
+         style="height: auto; vertical-align: middle;">
+  </div>
+  <div style="flex: 1; display: flex; justify-content: center; max-width: 100%; margin: 0 5px;">
+    <img src="builds/images/lodestar/vvtol_v1_pcb_design.jpg"
+         style="height: auto;">
+  </div>
+</div>
+</div>
+<div style="display: flex; align-items: flex-start;">
+  <div style="flex: 1; text-align: center; font-style: italic;">Assembled board + chassis</div>
+  <div style="flex: 1; text-align: center; font-style: italic;">Board in KiCAD</div>
+</div>
+
+
 I am also working on an updated version here, pics/documentation on [github here](https://github.com/shihaocao/vvtol)
 
 ---
