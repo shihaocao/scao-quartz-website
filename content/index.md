@@ -10,7 +10,7 @@ title: I'm Shihao!
 </div>
 
 ### Currently I am...
-- team captain of [lemons racing team](https://www.instagram.com/magicarpmotors/)
+- team captain of [lemons racing team](https://www.magicarpmotors.com/)
 - working on beaming [4G LTE from Space](https://www.starlink.com/us/business/direct-to-cell) via Starlink
 
 ### Previously
