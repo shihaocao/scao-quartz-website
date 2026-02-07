@@ -17,7 +17,7 @@ title: I'm Shihao!
 - scaled rooftops
 - lead the [PAN](https://www.spacecraftresearch.com/pan) team that deployed two satellites into space 
 - camera systems for [Orchard Robotics](https://www.orchard.ai/)
-- founded and lead an [autonmous plane team](https://www.tjuav.org/)
+- founded and lead an [autonomous plane team](https://www.tjuav.org/)
 - co-director for [Big Red Hacks @ Cornell](https://www.bigredhacks.com/)
 
 ### For fun I...
