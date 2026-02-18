@@ -13,7 +13,7 @@ A friend and I spent some time walking and talking. We identified a few ideas.
 Cut over dates help people scope the life time of a part to a _generation_. It is often much easier to design a new part for the next generation instead of trying to squeeze it amongst a whole bunch of other garbage.
 
 ### Keep teams small
-It's hard to, there's almost more to do. But keeping teems small. With a small team you can only do `zero` to `one`. Larger teams can do `one` to `one-hundred`.
+It's hard to, there's almost more to do. But keep teams small. Only with a small team can you can do `zero` to `one`. Larger teams can do `one` to `one-hundred`.
 
 We should repeatedly be trying to do `zero-to-one` with small teams. Then we hand off to a separate team to scale.
 
