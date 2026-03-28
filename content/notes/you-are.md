@@ -52,7 +52,7 @@ Do you remember now? Good. Breathe in -- and remember to smile.
 
 I have a couple ideas for where this can go.
 
-The simplist idea is just the intro setup to my website. I'm inspired by A's top bar on her website where it's a very clear layout of the key things she wants people to know about her.
+The simplest idea is just the intro setup to my website. I'm inspired by A's top bar on her website where it's a very clear layout of the key things she wants people to know about her.
 
 If I knew exactly how to make websites, I would playout each section as follows, and fade in perhaps more as the user scrolled (is that too 2023)?
 

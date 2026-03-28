@@ -18,6 +18,6 @@ Putting it up into an airplane.
 
 Walking around with it clipped into the back.
 
-Skitting on it eating sandwhiches.
+Skitting on it eating sandwiches.
 
 Ripping down a hill.

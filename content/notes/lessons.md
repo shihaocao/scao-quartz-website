@@ -36,7 +36,7 @@ We don't want to leave our comfort, but leaving our bubble is what leads
 to exciting things and climbing mountains.
 
 ### Write down how you do things
-We over estimate our memory. Writing things down helps us distill the important lessons, this is the process of learning.
+We overestimate our memory. Writing things down helps us distill the important lessons, this is the process of learning.
 
 When we try to write things down it makes us realize we don't actually
 understand something -- this is what forces us to learn.

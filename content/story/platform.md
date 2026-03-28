@@ -9,7 +9,7 @@ _When you needed them, they left_
 
 ## Objective
 
-Tell a story of suprised pain, and being pulled back to the past, and the present that never was.
+Tell a story of surprised pain, and being pulled back to the past, and the present that never was.
 
 Make viewers feel, a regretful blase.
 

@@ -37,7 +37,7 @@ What is the instigating plot point?
 Stories
 - An afternoon at the DMV deadass
 
-Absotely fire lines:
+Absolutely fire lines:
 - If I could have stayed I would have
   - Saying you've tried everything you know, and it's time to move on
 - Is that ok?

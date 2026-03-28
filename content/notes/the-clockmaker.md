@@ -6,7 +6,7 @@ tags: [life, meaning, music, time]
 
 Like many songs back then in middle school, I associate [The Clockmaker - Vexare](https://youtu.be/-fhj30f3aJ0?si=-Qzj0DpENvQtwAG3) with the spring rain in Virginia, and the cold morning bus rides waiting for first period.
 
-It's dubstep of course. I would steel myself up each morning to telling myself I had a mission for the day. I was just a child, but I was alive -- or atleast alive within the bubble of understanding that I had.
+It's dubstep of course. I would steel myself up each morning to telling myself I had a mission for the day. I was just a child, but I was alive -- or at least alive within the bubble of understanding that I had.
 
 It's hard to keep focus, I would drift in and out, from worries about my todos, or just abstract desires to work harder somehow, or to figure out how to waste less time.
 

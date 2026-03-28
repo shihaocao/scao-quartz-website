@@ -65,7 +65,7 @@ I later converted it into a snowboard and never bothered to put it back together
 
 ---
 
-### The Mangeto Nickel
+### The Magneto Nickel
 
 The general-purpose nickel board. I got this board in the Fall of 2021 as I needed a board with real grip tape and stiffness. This board, especially with the upgraded 70mm wheels, gave me real stiffness and confidence in going down the hill into collegetown at full-speed without carving.
 
@@ -164,7 +164,7 @@ And so, I thought it was only fitting to get a few glamour shots in graduation a
   </div>
 </div>
 <div style="display: flex; align-items: flex-start;">
-<div style="flex: 1; display: flex; text-align: center; justify-content: center; font-style: italic;">Hillbomging in grad attire</div>
+<div style="flex: 1; display: flex; text-align: center; justify-content: center; font-style: italic;">Hillbombing in grad attire</div>
 <div style="flex: 1; display: flex; text-align: center; justify-content: center; font-style: italic;">Zoomshot tucking at the garage</div>
 </div>
 

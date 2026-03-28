@@ -44,11 +44,11 @@ I am very spartan in packing, this is really just for myself.
 - Glasses
 
 ## Other
-- Old backpack + Transfered camelpak
+- Old backpack + Transferred camelpak
 - Multitool for adjusting bindings
 - Threadlocker for bindings
 
-## Bacpack Items
+## Backpack Items
 - Phone charger
 - Both Laptops
 - USB C Hub Dongle

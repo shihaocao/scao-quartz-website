@@ -13,7 +13,7 @@ Since I was in elementary school, I have listened to melodic dubstep, or similar
 
 Between the beats and between the drops I imagine looking out cockpit of a fighter aircraft. I imagine that I am [one with the machine](https://www.instagram.com/p/DLP_RSlJPJa/?utm_source=ig_web_copy_link&igsh=MTJwY3BhbTl5d3pnbQ==), and that I give us both a respite from pushing the afterburner. And when I'm ready, I imagine engaging it again, and feeling the strain of the metal, and the vibration throughout.
 
-> Most modern fighter-jets are equipped with afterburners. When engaged, the afterburner will dump extra fuel into the combustor if the engine, burning fuel at >3x the nominal consumption rate for immense thrust increase.
+> Most modern fighter-jets are equipped with afterburners. When engaged, the afterburner will dump extra fuel into the combustor of the engine, burning fuel at >3x the nominal consumption rate for immense thrust increase.
 
 > You can't use it forever -- use it too long, and you'll overwhelm the cooling, or just run out of fuel.
 

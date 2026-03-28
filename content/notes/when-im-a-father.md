@@ -35,5 +35,5 @@ We should be in pursuit of losing track and wasting time.
 
 When someone says something you don't agree with, treat it as an opportunity to learn and empathize with a perspective you may not be in touch with. It doesn't mean you need to come to consensus - you may not always be able to. But there is always something you don't know.
 
-One my close friends used to often say that life is a game: but in my gut reaction to say that life is not about play (I still don't think it is), I dismissed everything he had to say. But separately though,
+One of my close friends used to often say that life is a game: but in my gut reaction to say that life is not about play (I still don't think it is), I dismissed everything he had to say. But separately though,
 I do believe that it is a good analogy. Specifically, I think it is like an engine building game. You must learn what your fly wheel is, how to maintain and grow it, and how to kick start it when it falters.

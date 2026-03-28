@@ -18,7 +18,7 @@ draft: true
 ## Rhodes
 ## Kimball
 ## Olin Hall
-## Plant Science Building -> Mann Libary
+## Plant Science Building -> Mann Library
 ## Arts and Architecture
 ## Statler
 ## Schwartz

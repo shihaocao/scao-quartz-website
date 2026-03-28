@@ -10,7 +10,7 @@ Python integers are infinite precision, great!
 But working with binary math + negative numbers can be confusing.
 - https://stackoverflow.com/questions/46993519/python-representation-of-negative-integers
 
-Essentially, assume Python stores negative numbers also with infinite precision but in two's compliment when doing binary math.
+Essentially, assume Python stores negative numbers also with infinite precision but in two's complement when doing binary math.
 
 ---
 

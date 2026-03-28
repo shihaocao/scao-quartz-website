@@ -6,7 +6,7 @@ tags: [life, learning]
 
 ### Preface
 
-I wanted to create a page/tree of all the places and people I learn from and are to this day still inspired by in engineering, the arts, how the world works, and more. These people are recommended not only because I follow them still, but because they were also because their content was welcoming enough for me to learn the fundamentals from (you may have to dig to find their intro content in some cases). I hope that this list may be useful to other people in the future to nuture whatever piques there interests!
+I wanted to create a page/tree of all the places and people I learn from and are to this day still inspired by in engineering, the arts, how the world works, and more. These people are recommended not only because I follow them still, but because they were also because their content was welcoming enough for me to learn the fundamentals from (you may have to dig to find their intro content in some cases). I hope that this list may be useful to other people in the future to nurture whatever piques their interests!
 
 I hope that this list will outlast whatever the "Algorithm" may devolve into. Much of this will probably be similar to my subscriptions list on You Tube...
 
@@ -22,7 +22,7 @@ The full list is WIP! It is in no way complete!
 - [Scott Yu-Jan](https://www.youtube.com/@ScottYuJan)
 
 ### EE/Microelectronics
-- [mixela](https://www.youtube.com/@mitxela)
+- [mitxela](https://www.youtube.com/@mitxela)
 - [Ben Eater](https://www.youtube.com/@BenEater)
 
 ### Infrastructure

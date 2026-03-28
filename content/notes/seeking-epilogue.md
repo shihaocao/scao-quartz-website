@@ -26,9 +26,9 @@ Epilogue is that 3 am Taco Bell and cold water after an absolute rager of an EDM
 Epilogue is seeing the freshmen grow up. Recalling the way you lead them through the basics of CAD, 3D printers, and engineering. Watching them iterate through their own designs,  growing from “minions”, to “leads”, to “leaders”... To see them teaching them kiddos of their own with visions grander than what you ever thought was possible. The joy of teaching. And the reward of seeing the kids grow up. That is Epilogue.
 
 
-### **The Layers of Epilgoues**
+### **The Layers of Epilogues**
 
-Epilogue is when the gang decides to take a detour on the way back from the Shenandoah mountains, to seek out one particular KFC: the birthsite of an infamous inside joke that had been parroted for two years straight. And even though the recreation of the inside joke isn't perfect, it's somehow just as funny in it's own way.
+Epilogue is when the gang decides to take a detour on the way back from the Shenandoah mountains, to seek out one particular KFC: the birthsite of an infamous inside joke that had been parroted for two years straight. And even though the recreation of the inside joke isn't perfect, it's somehow just as funny in its own way.
 
 It's organizing an even bigger group to go stargazing. To go back to the same spot you and your buddy had scouted out a year ago: the top of a short 2-mile hike to the top of Mt. Pinos in Angeles National Forest. The satisfaction of being able to share a view of the Milky Way, and a streaking shooting star that hangs in the air.
 

@@ -47,7 +47,7 @@ draft: true
       4. Medium slowing down
 8. Field
    1. Medium revolving shot, camera following but also revolving around them
-   2. Wheat tails in forground, chars moving through
+   2. Wheat tails in foreground, chars moving through
    3. Sitting down, the camera sits down too, giving us immersion of movement
 9. Drawing on each other's hands
    1.  Several shots of focused in on each other's hands - but using the handrails to create a parallax effect - beautiful.
@@ -57,14 +57,14 @@ draft: true
     3.  Tight foreground background splits, but both characters visible, great way to bring them closer since the characters are like midground
 11. Bridge shot
     1.  Wide establishing shot, walking onto the bridge
-    2.  Tightrope on brdige - Tight shot started at the feet, pan up the body and face, almost POV from LI
+    2.  Tightrope on bridge - Tight shot started at the feet, pan up the body and face, almost POV from LI
     3.  Wide establishing shot
     4.  Top down dangling at the feet, same place characters are looking
     5.  Extra wide aesthetic shot, another establishing shot from below the bridge
     6.  Closing shot, them coming out of the trees
 12. Videogames
     1.  Hard cut intro, but it's focused on the controller - a tight intro shot - focused on just the hands
-    2.  telescope shot, TV forground, MC background
+    2.  telescope shot, TV foreground, MC background
     3.  Wide shoot, MC cheering, LI grabbing the face of the MC after
     4.  Cut to MC reacting
     5.  Cut back to hair floofing from LI
@@ -101,5 +101,5 @@ draft: true
     3.  At water level getting them as they pop out of the water (from afar), far but medium
     4.  At the dock again, heads bobbing out, wide
     5.  Telescope shots again
-        1.  MC and LI visible in foregorund vs background
+        1.  MC and LI visible in foreground vs background
             1.  Camera bobs up and down, just as they would be
