@@ -164,6 +164,8 @@ For the next iteration we plan to add a small auxiliary battery with:
 
 I did the embedded software running on the Arduino, and Jacky did most of 95% of the software stack. This was a lot of fun working with him as a hackathon for basically 3 days straight. Check out the `github` here: https://github.com/shihaocao/telem
 
+> A lot of the lessons about how this kind of software has immense parallels with my time at Orchard. It was fun to basically be on the customer side of things (when discussing software goals with Jacky). I think rebuilding what we had at Orchard indicates that we got a lot of things right at Orchard.
+
 Jacky is also writing a blog post on the software side of things: `COMING SOON`
 
 ### Driver Communication
