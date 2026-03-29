@@ -11,7 +11,7 @@ Outside of work, I lead a 24 hours of lemons endurance racing team. For our Spri
 
 This was a ton of fun to get to apply all my skills from Orchard Robotics and SpaceX to an engineering project to directly make my friends happy.
 
-I laid out the hardware architecture, and built the physical system. Jacky built out the software stack. And of course, the rest of the team built the race car.
+I designed the hardware architecture, wrote the embedded software, and built the physical system. Jacky built out the entire software stack and data-flows. And of course, the rest of the team built the race car.
 - Check out our team's github: https://github.com/shihaocao/telem
 - Check out our team's IG here: https://www.instagram.com/magicarpmotors/
 - And check out Jacky's blog post here: `COMING SOON`
@@ -22,7 +22,7 @@ In the rest of this blog, I'll talk about the hardware design and build out.
 
 ## 01 - HW Architecture
 
-![Telemetry Block Diagram](builds/images/telemetry/500-telem-block-diagram.png)
+![Telemetry Block Diagram](builds/images/telemetry/500-telem-block-diagram.jpg)
 
 ### Design Considerations
 We had considered a Starlink Mini as vehicle data offload but decided against this because I was unsure if we would be in a garage. The line-of-sight requirements are tough.
@@ -71,7 +71,7 @@ Since the 1992 Honda Accord is before the OBD2 era, we needed to grab most of ou
     <figcaption style="font-size: 0.85em; color: var(--gray); margin-top: 0.5em;">T-splice connectors on an extension harness</figcaption>
   </figure>
   <figure style="margin: 0; text-align: center;">
-    <img src="/builds/images/telemetry/300-fsm-throttle-position.png" alt="FSM throttle position pinout" style="width: 100%; border-radius: 4px;" />
+    <img src="/builds/images/telemetry/300-fsm-throttle-position.jpg" alt="FSM throttle position pinout" style="width: 100%; border-radius: 4px;" />
     <figcaption style="font-size: 0.85em; color: var(--gray); margin-top: 0.5em;">Using the FSM to find which pins to tap</figcaption>
   </figure>
 </div>
@@ -95,11 +95,11 @@ Since the 1992 Honda Accord is before the OBD2 era, we needed to grab most of ou
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1em; margin: 1em 0;">
   <figure style="margin: 0; text-align: center;">
-    <img src="/builds/images/telemetry/700-arduino-hell.png" alt="Arduino with voltage dividers and sense tap points" style="width: 100%; border-radius: 4px;" />
+    <img src="/builds/images/telemetry/700-arduino-hell.jpg" alt="Arduino with voltage dividers and sense tap points" style="width: 100%; border-radius: 4px;" />
     <figcaption style="font-size: 0.85em; color: var(--gray); margin-top: 0.5em;">Arduino with voltage divider boards and sense tap points off the ECU</figcaption>
   </figure>
   <figure style="margin: 0; text-align: center;">
-    <img src="/builds/images/telemetry/701-dash-taps.png" alt="RPM and brake tap points behind the dash" style="width: 100%; border-radius: 4px;" />
+    <img src="/builds/images/telemetry/701-dash-taps.jpg" alt="RPM and brake tap points behind the dash" style="width: 100%; border-radius: 4px;" />
     <figcaption style="font-size: 0.85em; color: var(--gray); margin-top: 0.5em;">RPM and brake tap points behind the dash</figcaption>
   </figure>
 </div>
@@ -119,7 +119,7 @@ To make the build complete, it is helpful to have:
 
 ## 04 - Power Architecture
 
-![Onboard Power Diagram](builds/images/telemetry/501-onboard-power-diagram.png)
+![Onboard Power Diagram](builds/images/telemetry/501-onboard-power-diagram.jpg)
 
 > I decided to make the source of all the power the kill switch +12V downstream. This is for safety reasons so that if we pull the kill switch telemetry powers off too.
 > The "power distribution board" was just a perf board with everything soldered up to meet it. It was jank, but it worked well. Yes it was covered later.

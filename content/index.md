@@ -22,7 +22,7 @@ title: I'm Shihao!
 
 ### For fun I...
 - longboard
-- take [photos](photos)
+- built a [telemetry system for race cars](telemetry)
 - capture [fleeting emotions in films](https://www.instagram.com/shots.by.shihao)
 - designed my own [remote-control F-86 - plans here!](f86)
 - built a 7' 7" [tower of cards](tower-of-cards)
