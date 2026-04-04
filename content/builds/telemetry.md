@@ -37,15 +37,15 @@ We had also considered running the stream on the vehicle, but this would have be
 
 | Component | Model | Specs | Power | Cost | Category | Notes |
 |---|---|---|---|---|---|---|
-| Forward Wide Camera | [Logitech C920x](https://www.amazon.com/Logitech-C920x-Pro-HD-Webcam/dp/B085TFF7M1) | 1080p × 30fps | USB 2.5W | $70 | Video | Driver POV |
-| Driver Camera | [Logitech C920x](https://www.amazon.com/Logitech-C920x-Pro-HD-Webcam/dp/B085TFF7M1) | 1080p × 30fps | USB 2.5W | $70 | Video | Shifting and pedal movements |
-| On Board Compute | [Jetson Orin NX](https://www.amazon.com/seeed-studio-reComputer-J4012-Edge-Pre-Installed/dp/B0C88V4CB7/) | 16GB RAM, NVENC accelerator | 12V/5A → 60W max | $1150 | Compute | Hardware encoding accelerator avoids video bottleneck |
-| 5G Modem | [GL-X3000](https://www.amazon.com/GL-iNet-GL-X3000-Multi-WAN-Detachable-WireGuard/dp/B0C5RCQ8N5) | 5G, physical SIM | 12V/2.5A → 30W max | $323 | Connectivity | |
-| SIM Card + Plan | [Visible+ Pro](https://www.visible.com/plans) | Unlimited data | — | $45/mo | Connectivity | Verizon works well at Thunderhill and Sonoma |
-| GPS/Accel | [RaceBox Micro](https://www.amazon.com/RACEBOX-Micro-25Hz-GPS-Accelerometer/dp/B0DF5PX5X9/) | 25Hz, <1m accuracy | 12V, 0.2W max | $125 | Telemetry | Also works as standalone product with phone |
-| Bluetooth Dongle | [UD100-G03](https://www.amazon.com/dp/B0161B5ATM) | BLE 4.0 | USB, 2.5W max | $39 | Telemetry | Jetson lacks built-in BT; needed for RaceBox BLE |
-| Microcontroller | [Arduino Mega 2560](https://www.amazon.com/Arduino-ATmega2560-Compatible-Advanced-Projects/dp/B0046AMGW0/) | 54 digital I/O, 16 analog inputs | USB, 1W max | $49 | Telemetry | Overkill; smaller 5V Arduino would suffice |
-| Microphone | [LavMicro-U](https://www.amazon.com/Saramonic-Professional-Microphone-Interviews-LAVMICRO-U/dp/B09V9NVL4Q/) | USB lavalier | USB, 0.5W | $30 | Audio | In-car audio, Opus 64kbps |
+| Forward Wide Camera | [Logitech C920x](https://www.amazon.com/Logitech-C920x-Pro-HD-Webcam/dp/B085TFF7M1) | 1080p × 30fps | USB 2.5W | $70 | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#dbeafe;color:#1e40af;">Video</span> | Driver POV |
+| Driver Camera | [Logitech C920x](https://www.amazon.com/Logitech-C920x-Pro-HD-Webcam/dp/B085TFF7M1) | 1080p × 30fps | USB 2.5W | $70 | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#dbeafe;color:#1e40af;">Video</span> | Shifting and pedal movements |
+| On Board Compute | [Jetson Orin NX](https://www.amazon.com/seeed-studio-reComputer-J4012-Edge-Pre-Installed/dp/B0C88V4CB7/) | 16GB RAM, NVENC accelerator | 12V/5A → 60W max | $1150 | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#ede9fe;color:#5b21b6;">Compute</span> | Hardware encoding accelerator avoids video bottleneck |
+| 5G Modem | [GL-X3000](https://www.amazon.com/GL-iNet-GL-X3000-Multi-WAN-Detachable-WireGuard/dp/B0C5RCQ8N5) | 5G, physical SIM | 12V/2.5A → 30W max | $323 | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#d1fae5;color:#065f46;">Connectivity</span> | |
+| SIM Card + Plan | [Visible+ Pro](https://www.visible.com/plans) | Unlimited data | — | $45/mo | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#d1fae5;color:#065f46;">Connectivity</span> | Verizon works well at Thunderhill and Sonoma |
+| GPS/Accel | [RaceBox Micro](https://www.amazon.com/RACEBOX-Micro-25Hz-GPS-Accelerometer/dp/B0DF5PX5X9/) | 25Hz, <1m accuracy | 12V, 0.2W max | $125 | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#ffedd5;color:#9a3412;">Telemetry</span> | Also works as standalone product with phone |
+| Bluetooth Dongle | [UD100-G03](https://www.amazon.com/dp/B0161B5ATM) | BLE 4.0 | USB, 2.5W max | $39 | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#ffedd5;color:#9a3412;">Telemetry</span> | Jetson lacks built-in BT; needed for RaceBox BLE |
+| Microcontroller | [Arduino Mega 2560](https://www.amazon.com/Arduino-ATmega2560-Compatible-Advanced-Projects/dp/B0046AMGW0/) | 54 digital I/O, 16 analog inputs | USB, 1W max | $49 | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#ffedd5;color:#9a3412;">Telemetry</span> | Overkill; smaller 5V Arduino would suffice |
+| Microphone | [LavMicro-U](https://www.amazon.com/Saramonic-Professional-Microphone-Interviews-LAVMICRO-U/dp/B09V9NVL4Q/) | USB lavalier | USB, 0.5W | $30 | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#fce7f3;color:#9d174d;">Audio</span> | In-car audio, Opus 64kbps |
 
 > One of the earliest things I derisked was whether or not the modem would even work with the Visible Physical Simcard. I had to borrow a friend's Android with a physical simcard slot, activate it, then transfer the sim and hope everything would "just work". Luckily, despite online sources reporting otherwise, it did.
 
@@ -61,6 +61,8 @@ Since the 1992 Honda Accord is before the OBD2 era, we needed to grab most of ou
 > 3. Connect the line to an o-scope while the engine was running.
 > 4. Verify I could process the signal later.
 
+> It is very helpful to buy an `extension harness` for these kinds of jobs. The OEM harness is very tightly packed, and the plastic hasn't been moved in years. It's much easier to trace wires and put in taps on an extension harness that has everything all split apart already.
+
 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1em; margin: 1em 0;">
   <figure style="margin: 0; text-align: center;">
     <img src="/builds/images/telemetry/200-ignition-square-waves.jpg" alt="Ignition square waves on oscilloscope" style="width: 100%; border-radius: 4px;" />
@@ -72,26 +74,27 @@ Since the 1992 Honda Accord is before the OBD2 era, we needed to grab most of ou
   </figure>
   <figure style="margin: 0; text-align: center;">
     <img src="/builds/images/telemetry/300-fsm-throttle-position.jpg" alt="FSM throttle position pinout" style="width: 100%; border-radius: 4px;" />
-    <figcaption style="font-size: 0.85em; color: var(--gray); margin-top: 0.5em;">Using the FSM to find which pins to tap</figcaption>
+    <figcaption style="font-size: 0.85em; color: var(--gray); margin-top: 0.5em;">For example, using the FSM to find which pins to tap</figcaption>
   </figure>
 </div>
 
+### Telemetry Point Table
 
 | Telemetry Point | Sense Strategy | Signal Type | Arduino Pin | Sense Line |
 |---|---|---|---|---|
-| Video 1 | Camera | USB | — | — |
-| Video 2 | Camera | USB | — | — |
-| Car Audio | Microphone | USB | — | — |
-| Brake Indicator | Binary yes/no voltage | 12V divided down 4.3× | A5 | White/Green brake light line |
-| Battery Voltage | Analog | 12V divided down 4.3× | A6 | Tap off PDB +12V bus |
-| Throttle Position | Calibrated 0–100% | 5V analog | A9 | D11 ECU D connector |
-| Engine Coolant Temp | Lookup table | 5V analog | A8 | D13 ECU D connector |
-| MAP | Lookup table | 5V analog | A10 | D13 ECU D connector |
-| RPM (Tach) | Instantaneous pulses/sec | 12V square wave, stepped down to 5V | D18 | A7 BLU Dash connector |
-| VSS | Instantaneous pulses/sec | 12V square wave, stepped down to 5V | D19 | B10 ECU B connector |
-| GPS | RaceBox | Digital | — | — |
-| Accel | RaceBox | Digital | — | — |
-| Gyro | RaceBox | Digital | — | — |
+| Video 1 | Camera | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#dbeafe;color:#1e40af;">USB</span> | — | — |
+| Video 2 | Camera | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#dbeafe;color:#1e40af;">USB</span> | — | — |
+| Car Audio | Microphone | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#dbeafe;color:#1e40af;">USB</span> | — | — |
+| Brake Indicator | Binary yes/no voltage | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#ffedd5;color:#9a3412;">12V analog</span> | A5 | White/Green brake light line |
+| Battery Voltage | Analog | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#ffedd5;color:#9a3412;">12V analog</span> | A6 | Tap off PDB +12V bus |
+| Throttle Position | Calibrated 0–100% | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#d1fae5;color:#065f46;">5V analog</span> | A9 | D11 ECU D connector |
+| Engine Coolant Temp | Lookup table | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#d1fae5;color:#065f46;">5V analog</span> | A8 | D13 ECU D connector |
+| MAP | Lookup table | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#d1fae5;color:#065f46;">5V analog</span> | A10 | D13 ECU D connector |
+| RPM (Tach) | Instantaneous pulses/sec | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#ede9fe;color:#5b21b6;">12V square wave</span> | D18 | A7 BLU Dash connector |
+| VSS | Instantaneous pulses/sec | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#ede9fe;color:#5b21b6;">12V square wave</span> | D19 | B10 ECU B connector |
+| GPS | RaceBox | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#fce7f3;color:#9d174d;">Digital</span> | — | — |
+| Accel | RaceBox | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#fce7f3;color:#9d174d;">Digital</span> | — | — |
+| Gyro | RaceBox | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#fce7f3;color:#9d174d;">Digital</span> | — | — |
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1em; margin: 1em 0;">
   <figure style="margin: 0; text-align: center;">
