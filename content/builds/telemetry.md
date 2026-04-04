@@ -23,6 +23,21 @@ In the rest of this blog, I'll talk about the hardware design and build out.
   <figcaption style="font-size: 0.85em; color: var(--gray); margin-top: 0.5em;">Live video onboard from Sonoma 26 with telemetry overlays</figcaption>
 </figure>
 
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1em; margin: 1em 0;">
+  <figure style="margin: 0; text-align: center;">
+    <img src="/builds/images/telemetry/901-telem-in-passenger.jpg" alt="Telemetry setup in passenger seat" style="width: 100%; border-radius: 4px;" />
+    <figcaption style="font-size: 0.85em; color: var(--gray); margin-top: 0.5em;">Core setup in the passenger seat, without covers on</figcaption>
+  </figure>
+  <figure style="margin: 0; text-align: center;">
+    <img src="/builds/images/telemetry/902-jacky-shihao-reivew.jpg" alt="Jacky and Shihao reviewing data" style="width: 100%; border-radius: 4px;" />
+    <figcaption style="font-size: 0.85em; color: var(--gray); margin-top: 0.5em;">Jacky and I reviewing initial telemetry on track</figcaption>
+  </figure>
+  <figure style="margin: 0; text-align: center;">
+    <img src="/builds/images/telemetry/903-jacky-shihao-final.JPG" alt="Jacky and Shihao final setup" style="width: 100%; border-radius: 4px;" />
+    <figcaption style="font-size: 0.85em; color: var(--gray); margin-top: 0.5em;">Jacky and I at the end of the race</figcaption>
+  </figure>
+</div>
+
 ## 01 - HW Architecture
 
 ![Telemetry Block Diagram](builds/images/telemetry/500-telem-block-diagram.jpg)
