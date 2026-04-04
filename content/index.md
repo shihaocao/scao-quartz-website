@@ -10,13 +10,13 @@ title: I'm Shihao!
 </div>
 
 ### Currently I am...
-- team captain of [lemons racing team](https://www.magicarpmotors.com/)
+- team captain of [Magicarp Motors Endurance Racing](https://www.magicarpmotors.com/)
 - working on beaming [4G LTE from Space](https://www.starlink.com/us/business/direct-to-cell) via Starlink
 
 ### Previously
 - scaled rooftops
+- built camera systems for [Orchard Robotics](https://www.orchard.ai/)
 - lead the [PAN](https://www.spacecraftresearch.com/pan) team that deployed two satellites into space 
-- camera systems for [Orchard Robotics](https://www.orchard.ai/)
 - founded and lead an [autonomous plane team](https://www.tjuav.org/)
 - co-director for [Big Red Hacks @ Cornell](https://www.bigredhacks.com/)
 
