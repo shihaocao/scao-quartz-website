@@ -99,12 +99,17 @@ Since the 1992 Honda Accord is before the OBD2 era, we needed to grab most of ou
 | Accel | RaceBox | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#fce7f3;color:#9d174d;">Digital</span> | — | — |
 | Gyro | RaceBox | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#fce7f3;color:#9d174d;">Digital</span> | — | — |
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1em; margin: 1em 0;">
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1em; margin: 1em 0;">
   <figure style="margin: 0; text-align: center;">
     <img src="/builds/images/telemetry/700-arduino-hell.jpg" alt="Arduino with voltage dividers and sense tap points" style="width: 100%; border-radius: 4px;" />
     <figcaption style="font-size: 0.85em; color: var(--gray); margin-top: 0.5em;">Arduino with voltage divider boards and sense tap points off the ECU</figcaption>
   </figure>
+
   <figure style="margin: 0; text-align: center;">
+    <img src="/builds/images/telemetry/900-debug-on-laptop.jpg" alt="Debug traces on laptop while sitting in car" style="width: 100%; border-radius: 4px;" />
+    <figcaption style="font-size: 0.85em; color: var(--gray); margin-top: 0.5em;">Debugging traces on the laptop while sitting in the car</figcaption>
+  </figure>
+    <figure style="margin: 0; text-align: center;">
     <img src="/builds/images/telemetry/701-dash-taps.jpg" alt="RPM and brake tap points behind the dash" style="width: 100%; border-radius: 4px;" />
     <figcaption style="font-size: 0.85em; color: var(--gray); margin-top: 0.5em;">RPM and brake tap points behind the dash</figcaption>
   </figure>
