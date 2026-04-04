@@ -12,20 +12,23 @@ Outside of work, I lead a 24 hours of lemons endurance racing team. For our Spri
 This was a ton of fun to get to apply all my skills from Orchard Robotics and SpaceX to an engineering project to directly make my friends happy.
 
 I designed the hardware architecture, wrote the embedded software, and built the physical system. Jacky built out the entire software stack and data-flows. And of course, the rest of the team built the race car.
-- Check out our team's github: https://github.com/shihaocao/telem
+- Check out our team's GitHub: https://github.com/shihaocao/telem
 - Check out our team's IG here: https://www.instagram.com/magicarpmotors/
 - And check out Jacky's blog post here: `COMING SOON`
 
 In the rest of this blog, I'll talk about the hardware design and build out.
 
-![Sanjana Miata Pass](builds/images/telemetry/100-0322-1509-sanjana-miata-pass-full.gif)
+<figure style="margin: 1em 0; text-align: center;">
+  <img src="/builds/images/telemetry/100-0322-1509-sanjana-miata-pass-full.gif" alt="Sanjana Miata Pass" style="width: 100%; border-radius: 4px;" />
+  <figcaption style="font-size: 0.85em; color: var(--gray); margin-top: 0.5em;">Live video onboard from Sonoma 26 with telemetry overlays</figcaption>
+</figure>
 
 ## 01 - HW Architecture
 
 ![Telemetry Block Diagram](builds/images/telemetry/500-telem-block-diagram.jpg)
 
 ### Design Considerations
-We had considered a Starlink Mini as vehicle data offload but decided against this because I was unsure if we would be in a garage. The line-of-sight requirements are tough.
+We had considered a Starlink Mini as vehicle data offload but decided against this because I was unsure if we would be in a garage. Because Starlink does not work without line of sight, we went for cellular backhaul off of the vehicle.
 
 The need for multiple camera POVs, as well as pulling in data from multiple diverse sources essentially forces a Jetson-like central OBC.
 
@@ -47,13 +50,13 @@ We had also considered running the stream on the vehicle, but this would have be
 | Microcontroller | [Arduino Mega 2560](https://www.amazon.com/Arduino-ATmega2560-Compatible-Advanced-Projects/dp/B0046AMGW0/) | 54 digital I/O, 16 analog inputs | USB, 1W max | $49 | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#ffedd5;color:#9a3412;">Telemetry</span> | Overkill; smaller 5V Arduino would suffice |
 | Microphone | [LavMicro-U](https://www.amazon.com/Saramonic-Professional-Microphone-Interviews-LAVMICRO-U/dp/B09V9NVL4Q/) | USB lavalier | USB, 0.5W | $30 | <span style="display:inline-block;padding:0px 10px;border-radius:12px;font-size:0.85em;font-weight:500;background:#fce7f3;color:#9d174d;">Audio</span> | In-car audio, Opus 64kbps |
 
-> One of the earliest things I derisked was whether or not the modem would even work with the Visible Physical Simcard. I had to borrow a friend's Android with a physical simcard slot, activate it, then transfer the sim and hope everything would "just work". Luckily, despite online sources reporting otherwise, it did.
+> One of the earliest things I derisked was whether or not the modem would even work with the Visible physical SIM card. I had to borrow a friend's Android with a physical SIM card slot, activate it, then transfer the sim and hope everything would "just work". Luckily, despite online sources reporting otherwise, it did.
 
 ## 03 - Telemetry Points
 
 ### Tapping Strategy
 
-Since the 1992 Honda Accord is before the OBD2 era, we needed to grab most of our telemetry points via analog sense taps. For 12V signals, this would require a voltage divider circuit. For 5V signals, as long as we use a 5V micro controller we can skip the voltage divider.
+Since the 1992 Honda Accord is before the OBD2 era, we needed to grab most of our telemetry points via analog sense taps. For 12V signals, this would require a voltage divider circuit. For 5V signals, as long as we use a 5V microcontroller we can skip the voltage divider.
 
 > Finding what pins to tap where was a slow and tedious process.
 > 1. Figure out what line to tap via FSM + Haynes
@@ -109,12 +112,12 @@ Since the 1992 Honda Accord is before the OBD2 era, we needed to grab most of ou
 
 #### Details of Tapping
 
-Direct sense taps require a high impedance resistor in line to prevent the Arduino ESD protection diodes (when arduino is unpowered) from pulling the sense lines low and confusing the ECU. Especially if MAP is pulled low, the car will not start.
+Direct sense taps require a high impedance resistor in line to prevent the Arduino ESD protection diodes (when Arduino is unpowered) from pulling the sense lines low and confusing the ECU. Especially if MAP is pulled low, the car will not start.
 
 The RPM line comes from the ignition which has a lot of noise, and can separately also spike as high as 24V or 36V. I have a diode to suppress the voltage spikes, but next time I'll add a cap to suppress the noise.
 
 To make the build complete, it is helpful to have:
-- T Splice connectors
+- T-splice connectors
 - Butt splice connectors
 - Diodes, resistors, capacitors
 - Physical switch
@@ -126,7 +129,7 @@ To make the build complete, it is helpful to have:
 
 > I decided to make the source of all the power the kill switch +12V downstream. This is for safety reasons so that if we pull the kill switch telemetry powers off too.
 > The "power distribution board" was just a perf board with everything soldered up to meet it. It was jank, but it worked well. Yes it was covered later.
-> I got very lucky that the Jetson, Modem, and Racebox all supported automotive 12V input. That made things significantly easier.
+> I got very lucky that the Jetson, Modem, and RaceBox all supported automotive 12V input. That made things significantly easier.
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1em; margin: 1em 0;">
   <figure style="margin: 0; text-align: center;">
@@ -152,7 +155,7 @@ Once everything was tested and working, that's when I did a final pass to zip ti
 ## 06 - Places to Improve
 
 ### Sensing
-I really wish I had more time and could have put some caps on the `RPM` sense line, there's a lot of noise and caused us to read `higher` RPMs than what we actually should have been seeing on track
+I really wish I had more time and could have put some caps on the `RPM` sense line, there's a lot of noise which caused us to read `higher` RPMs than what we actually should have been seeing on track
 
 ### Power
 There are two big issues:
@@ -165,7 +168,7 @@ For the next iteration we plan to add a small auxiliary battery with:
 
 ## 07 - Software
 
-I did the embedded software running on the Arduino, and Jacky did most of 95% of the software stack. This was a lot of fun working with him as a hackathon for basically 3 days straight. Check out the `github` here: https://github.com/shihaocao/telem
+I did the embedded software running on the Arduino, and Jacky did most of the software stack. This was a lot of fun working with him as a hackathon for basically 3 days straight. Check out the `github` here: https://github.com/shihaocao/telem
 
 > A lot of the lessons about how this kind of software has immense parallels with my time at Orchard. It was fun to basically be on the customer side of things (when discussing software goals with Jacky). I think rebuilding what we had at Orchard indicates that we got a lot of things right at Orchard.
 
@@ -190,6 +193,6 @@ You can also donate directly here: https://donate.stripe.com/9B6cN52esdN1d3LbbOc
   </figure>
   <figure style="margin: 0; text-align: center;">
     <img src="/builds/images/telemetry/801-car-photo.JPG" alt="Car 129 overlooking San Francisco" style="width: 100%; border-radius: 4px;" />
-    <figcaption style="font-size: 0.85em; color: var(--gray); margin-top: 0.5em;">A photoshoot at twin peaks</figcaption>
+    <figcaption style="font-size: 0.85em; color: var(--gray); margin-top: 0.5em;">A photoshoot at Twin Peaks</figcaption>
   </figure>
 </div>
